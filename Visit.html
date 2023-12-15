@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>BestMuseum</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo_link" href="index.html">
+        <img
+          class="logo"
+          src="img/open-science-735787.png"
+          alt="Logo and home button"
+      /></a>
+      <nav>
+        <ul class="nav_links">
+          <li><a class="a2" href="Visit.html">Visit</a></li>
+          <li><a class="a2" href="Exhibits.html">Exhibits</a></li>
+          <li><a class="a2" href="C_S.html">Contact & Support</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#"><button>Donate</button></a>
+    </header>
+    <main>
+      <div class="visit_cont">
+        <picture
+          ><img
+            class="visit_banner_pic"
+            src="img/scott-webb-102825.jpg"
+            alt="The Museum"
+        /></picture>
+        <form class="form_visit" action="book">
+          <h1>Book Your Visit Here</h1>
+          <label for="name">Full Name</label>
+          <input type="text" placeholder="Full Name" />
+          <label for="Email">Email</label>
+          <input type="email" placeholder="Email" />
+          <label for="Visitors">Visitors</label>
+          <input type="number" name="number" id="number_visitors" />
+          <label for="date">Date</label>
+          <input type="date" />
+          <textarea
+            name="textarea"
+            id="textarea_Acsess"
+            cols="30"
+            rows="10"
+            placeholder="If you have any special needs for you visit, like borrowing a weelchair, you can write us here."
+          ></textarea>
+          <input class="book" type="submit" value="Book" />
+        </form>
+      </div>
+      <div>
+        <h2 id="lao">Location, Admission and Opening Hours</h2>
+        <div class="visit_info">
+          <div class="admission">
+            <h3>Admission</h3>
+            <p>
+              The entrance is free for all. There are guided tours of the museum
+              that leave every hour. These tours are 70 NOK per person and
+              include a handy printed guide of the museum. If you would like to
+              organise a guided tour for your group of 6 or more people, please
+              contact us to arrange the tour.
+            </p>
+          </div>
+          <div class="hours">
+            <h3>Hours</h3>
+            <ul>
+              <li>Monday: Closed</li>
+              <li>Tuesday: 10:00-16:00</li>
+              <li>Wedensday: 10:00-16:00</li>
+              <li>Thursday: 10:00-16:00</li>
+              <li>Friday: 10:00-19:00</li>
+              <li>Saturday: 09:00-16:00</li>
+              <li>Sunday: 09:00-13:00</li>
+            </ul>
+          </div>
+          <div class="location">
+            <h3>Location</h3>
+            <p>We are located at 1000 Raptor Way, Sitka, AK 99835, USA</p>
+            <iframe
+              id="map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31537.29207817218!2d-135.3270636247575!3d57.05599864499692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sno!2sno!4v1702391743627!5m2!1sno!2sno"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul class="footer_list">
+        <li>Phone: 555 55 555</li>
+        <li>Email: Museum@thebestmuseum.org</li>
+      </ul>
+      <a class="cta" href="#"><button>Donate</button></a>
+    </footer>
+  </body>
+</html>
