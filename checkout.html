@@ -3,25 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="explore our speciale events, fun for the whole family"
+    />
+    <meta author="Erland Heen Halvorsen" />
     <link rel="stylesheet" href="styles.css" />
-    <title>BestMuseum</title>
+    <title>Home|CommuntyScience Museum</title>
+    <script
+      defer
+      src="https://kit.fontawesome.com/d753c6feaf.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <a class="logo_link" href="index.html">
-        <img
-          class="logo"
-          src="img/open-science-735787.png"
-          alt="Logo and home button"
-      /></a>
-      <nav>
-        <ul class="nav_links">
-          <li><a class="a2" href="Visit.html">Visit</a></li>
-          <li><a class="a2" href="Exhibits.html">Exhibits</a></li>
-          <li><a class="a2" href="C_S.html">Contact & Support</a></li>
+    <header class="nav-bar">
+      <div class="branding">
+        <a class="logo_link" href="index.html">
+          <img
+            class="logo"
+            src="img/open-science-735787.png"
+            alt="Logo and home button"
+          />
+        </a>
+      </div>
+
+      <div class="menu-container">
+        <!-- <div class="hamburger"> -->
+        <!-- </div> -->
+        <label for="hamburger-checkbox">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input
+          type="checkbox"
+          name="hamburger-checkbox"
+          id="hamburger-checkbox"
+        />
+
+        <ul class="menu">
+          <li>
+            <a class="menu-item" href="Visit.html">Visit</a>
+            <div class="menu-item-effect"></div>
+          </li>
+          <li>
+            <a class="menu-item" href="Exhibits.html">Exhibits</a>
+            <div class="menu-item-effect"></div>
+          </li>
+          <li>
+            <a class="menu-item" href="C_S.html">Contact & Support</a>
+            <div class="menu-item-effect"></div>
+          </li>
         </ul>
-      </nav>
-      <a class="cta" href="#"><button>Donate</button></a>
+
+        <a class="btn" href="#">Donate</a>
+      </div>
     </header>
     <main></main>
     <footer>

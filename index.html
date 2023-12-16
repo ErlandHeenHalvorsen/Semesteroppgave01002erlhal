@@ -3,32 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="explore our speciale events, fun for the whole family"
+    />
+    <meta author="Erland Heen Halvorsen" />
     <link rel="stylesheet" href="styles.css" />
-    <title>BestMuseum</title>
+    <title>Home|CommuntyScience Museum</title>
+    <script
+      defer
+      src="https://kit.fontawesome.com/d753c6feaf.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    <header>
-      <a class="logo_link" href="index.html">
-        <img
-          class="logo"
-          src="img/open-science-735787.png"
-          alt="Logo and home button"
-      /></a>
-      <nav>
-        <ul class="nav_links">
-          <li><a class="a2" href="Visit.html">Visit</a></li>
-          <li><a class="a2" href="Exhibits.html">Exhibits</a></li>
-          <li><a class="a2" href="C_S.html">Contact & Support</a></li>
+    <header class="nav-bar">
+      <div class="branding">
+        <a class="logo_link" href="index.html">
+          <img
+            class="logo"
+            src="img/open-science-735787.png"
+            alt="Logo and home button"
+          />
+        </a>
+      </div>
+
+      <div class="menu-container">
+        <!-- <div class="hamburger"> -->
+        <!-- </div> -->
+        <label for="hamburger-checkbox">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input
+          type="checkbox"
+          name="hamburger-checkbox"
+          id="hamburger-checkbox"
+        />
+
+        <ul class="menu">
+          <li>
+            <a class="menu-item" href="Visit.html">Visit</a>
+            <div class="menu-item-effect"></div>
+          </li>
+          <li>
+            <a class="menu-item" href="Exhibits.html">Exhibits</a>
+            <div class="menu-item-effect"></div>
+          </li>
+          <li>
+            <a class="menu-item" href="C_S.html">Contact & Support</a>
+            <div class="menu-item-effect"></div>
+          </li>
         </ul>
-      </nav>
-      <a class="cta" href="#"><button>Donate</button></a>
+
+        <a class="btn" href="#">Donate</a>
+      </div>
     </header>
+
     <main>
       <div class="home_img">
         <picture class="picture_box">
-          <img class="img1" src="img/scott-webb-102825.jpg" alt="" />
-          <img class="img2" src="img/scientific-2040795_1280.jpg" alt="" />
-          <img class="img3" src="img/samuel-zeller-113381.jpg" alt="" />
+          <!-- <source srcset="">
+        <source srcset=""> -->
+          <img class="img1" src="img/banner-image.jpg" alt="" />
+          <!-- <img class="img2" src="img/scientific-2040795_1280.jpg" alt="" />
+        <img class="img3" src="img/samuel-zeller-113381.jpg" alt="" /> -->
         </picture>
       </div>
       <div class="index_main">
@@ -41,7 +80,7 @@
                 It is our pleasure to announce that Prof Sheila Widnall from the
                 Massachusetts Institute of Technology will be delivering 3
                 lectures on the development of aeronautics and where the future
-                lies in this exciting ‘space’.
+                lies in this exciting 'space'.
               </p>
             </li>
             <li>
@@ -58,9 +97,9 @@
               <p>
                 On loan from the NEMO Science Museum in Amsterdam, the
                 Energetica exhibition is coming to the Community Science Museum.
-                It’s a series of installations that allow visitors to experience
+                It's a series of installations that allow visitors to experience
                 the power of the elements as we harness them. From solar energy
-                powering lighting, to ‘Wind Island’ that shows how turbines are
+                powering lighting, to 'Wind Island' that shows how turbines are
                 able to use and control wind to create power.
               </p>
             </li>
@@ -69,12 +108,12 @@
         <div class="text">
           <h2>A Great Experience For The Entire Family!</h2>
           <p>
-            Come join us at the Community Science Museum where we’re committed
+            Come join us at the Community Science Museum where we're committed
             to making science accessible to all.
           </p>
           <p>
             Are you a young person looking to learn more about science? Come on
-            down to our museum, there’s plenty to see and do.
+            down to our museum, there's plenty to see and do.
           </p>
           <p>
             As a community-driven museum, we want to work with schools to create
