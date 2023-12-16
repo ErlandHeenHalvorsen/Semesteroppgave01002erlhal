@@ -9,7 +9,7 @@
     />
     <meta author="Erland Heen Halvorsen" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Home|CommuntyScience Museum</title>
+    <title>Home | CommuntyScience Museum</title>
     <script
       defer
       src="https://kit.fontawesome.com/d753c6feaf.js"
@@ -59,33 +59,63 @@
       </div>
     </header>
     <main>
-      <div class="visit_cont">
-        <picture
-          ><img
-            class="visit_banner_pic"
-            src="img/scott-webb-102825.jpg"
-            alt="The Museum"
-        /></picture>
+      <div class="visit-hero">
+        <picture>
+          <img src="img/scott-webb-102825.jpg" alt="The Museum" />
+        </picture>
+      </div>
+
+      <div class="book-visit">
         <form class="form_visit" action="book">
           <h1>Book Your Visit Here</h1>
-          <label for="name">Full Name</label>
-          <input type="text" placeholder="Full Name" />
-          <label for="Email">Email</label>
-          <input type="email" placeholder="Email" />
-          <label for="Visitors">Visitors</label>
-          <input type="number" name="number" id="number_visitors" />
-          <label for="date">Date</label>
-          <input type="date" />
-          <textarea
-            name="textarea"
-            id="textarea_Acsess"
-            cols="30"
-            rows="10"
-            placeholder="If you have any special needs for you visit, like borrowing a weelchair, you can write us here."
-          ></textarea>
-          <input class="book" type="submit" value="Book" />
+
+          <div class="input-group">
+            <div class="input">
+              <label for="first-name">First name</label>
+              <input id="first-name" type="text" placeholder="First name" />
+            </div>
+
+            <div class="input">
+              <label for="last-name">Last name</label>
+              <input id="last-name" type="text" placeholder="Last name" />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input">
+              <label for="Email">Email</label>
+              <input type="email" placeholder="Email" />
+            </div>
+
+            <div class="input">
+              <label for="Visitors">Visitors</label>
+              <input type="number" name="number" id="number_visitors" />
+            </div>
+
+            <div class="input">
+              <label for="date">Date</label>
+              <input type="date" />
+            </div>
+          </div>
+
+          <div class="input-group-column">
+            <div class="input">
+              <textarea
+                name="textarea"
+                id="textarea_Acsess"
+                cols="30"
+                rows="10"
+                placeholder="If you have any special needs for you visit, like borrowing a weelchair, you can write us here."
+              ></textarea>
+            </div>
+
+            <div class="form-actions">
+              <input class="book" type="submit" value="Book" />
+            </div>
+          </div>
         </form>
       </div>
+
       <div>
         <h2 id="lao">Location, Admission and Opening Hours</h2>
         <div class="visit_info">
@@ -111,14 +141,15 @@
               <li>Sunday: 09:00-13:00</li>
             </ul>
           </div>
+
           <div class="location">
             <h3>Location</h3>
             <p>We are located at 1000 Raptor Way, Sitka, AK 99835, USA</p>
             <iframe
               id="map"
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31537.29207817218!2d-135.3270636247575!3d57.05599864499692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sno!2sno!4v1702391743627!5m2!1sno!2sno"
-              width="600"
-              height="450"
+              width="100%"
+              height="300"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
