@@ -55,8 +55,8 @@ body {
 
 .form .book,
 .book {
-  background-color: #028090;
-  color: whitesmoke;
+  background-color: #89b4fa;
+  color: black;
   font-family: "jacques francois", sans-serif;
   font-size: 1.5em;
   margin: 0px 0;
@@ -67,7 +67,7 @@ body {
 }
 
 .book:hover {
-  background-color: #06626e;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.24);
 }
 
 .index_main {
@@ -346,6 +346,7 @@ p {
   padding: 20px;
   width: 700px;
   background: #fff;
+  border: solid 4px #6f90d0;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
