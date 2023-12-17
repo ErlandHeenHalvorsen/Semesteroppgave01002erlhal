@@ -135,13 +135,11 @@ p {
 }
 
 .book-visit {
-  margin-top: -100px;
   padding: 12px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   border-bottom: 1px solid black;
   padding-bottom: 50px;
-  margin-bottom: 20px;
 }
 
 .form_visit h1 {
