@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="explore our speciale events, fun for the whole family"
+      content="Checkout for donations"
     />
     <meta author="Erland Heen Halvorsen" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Home | CommuntyScience Museum</title>
+    <title>Checkout | CommuntyScience Museum</title>
     <script
       defer
       src="https://kit.fontawesome.com/d753c6feaf.js"
@@ -55,16 +55,81 @@
           </li>
         </ul>
 
-        <a class="btn" href="#">Donate</a>
+        <a class="btn" href="checkout.html">Donate</a>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <form action="#">
+          <div class="row">
+            <div class="col">
+              <h3 class="title">Billing adress</h3>
+              <div class="inputBox">
+                <span>Full Name :</span>
+                <input type="text" placeholder="john doe">
+              </div>
+                <div class="inputBox">
+                  <span>Email :</span>
+                  <input type="email" placeholder="abc@email.com">
+                </div>
+                <div class="inputBox">
+                  <span>Address :</span>
+                  <input type="text" placeholder="Street">
+                </div>
+                <div class="inputBox">
+                  <span>City :</span>
+                  <input type="text" placeholder="Montréal">
+                </div>
+                
+                  <div class="inputBox">
+                  <span>Country :</span>
+                  <input type="text" placeholder="Canada">
+                
+                <div class="inputBox">
+                  <span>Zip Code :</span>
+                  <input type="text" placeholder="5171">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h3 class="title">Payment Information</h3>
+              <div class="inputBox">
+                <span>Cards Accepted :</span>
+                <img src="Cardimg/card_img.png" alt="Payment options; Payplal, MasterCard, American Express, Visa ">
+              </div>
+              <div class="inputBox">
+                <span>Amount To Donate :</span>
+                <input type="number" placeholder="$xxx">
+              </div>
+              <div class="inputBox">
+                <span>Cardholders Name :</span>
+                <input type="text" placeholder="john doe">
+              </div>
+                <div class="inputBox">
+                  <span>Card Number :</span>
+                  <input type="number" placeholder="5555 xxx xxxx">
+                </div>
+                <div class="inputBox">
+                  <span>Expiration Date :</span>
+                  <input type="text" placeholder="06/26">
+                </div>
+                <div class="inputBox">
+                  <span>CVV :</span>
+                  <input type="text" placeholder="xxx">
+                </div>
+              </div>
+            </div>
+             <input type="submit" value="Donate" class="donate_btn">
+          </div>
+        </form>
+      </div>
+    </main>
     <footer>
       <ul class="footer_list">
         <li>Phone: 555 55 555</li>
         <li>Email: Museum@thebestmuseum.org</li>
       </ul>
-      <a class="cta" href="#"><button>Donate</button></a>
+      <a class="cta" href="checkout.html">Donate</a>
     </footer>
   </body>
 </html>
