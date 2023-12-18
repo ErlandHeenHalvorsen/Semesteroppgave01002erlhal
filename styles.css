@@ -363,6 +363,7 @@ p {
   border-top: 4px solid #6f90d0;
   border-bottom: 4px solid #89b4fa;
   border-right: 4px solid #89b4fa;
+  border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
